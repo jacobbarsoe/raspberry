@@ -1,0 +1,4 @@
+bitbake/
+oe-core/
+tmp.d/
+tmp/
