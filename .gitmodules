@@ -1,0 +1,6 @@
+[submodule "bitbake"]
+	path = bitbake
+	url = git://git.doredevelopment.dk/oe-lite/bitbake.git
+[submodule "meta/core"]
+	path = meta/core
+	url = git://git.doredevelopment.dk/oe-lite/oe-core.git
