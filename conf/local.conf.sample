@@ -1,11 +1,7 @@
-#MACHINE = "gallega-mk3"
+MACHINE = "mpc8313erdb"
 DISTRO = "basic"
 
 PROVIDED = "all"
-
-TARGET_CPU	= "powerpc"
-TARGET_VENDOR	= ""
-TARGET_OS	= "linux"
 
 SDK_CPU		= "i486"
 SDK_VENDOR	= ""
