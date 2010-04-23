@@ -3,6 +3,7 @@ DISTRO = "basic"
 
 PROVIDED = "all"
 
-SDK_CPU		= "i486"
-SDK_VENDOR	= ""
+SDK_CPU		= "i586"
+SDK_VENDOR	= "pc"
 SDK_OS		= "mingw32"
+SDK_PREFIX	= "i586-mingw32msvc-"
