@@ -1,5 +1,5 @@
-MACHINE = "mpc8313erdb"
-DISTRO = "basic"
+MACHINE ?= "mpc8313erdb"
+DISTRO ?= "basic"
 
 PROVIDED = "all"
 
