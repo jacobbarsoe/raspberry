@@ -15,7 +15,7 @@ bitbake = git://git.doredevelopment.dk/oe-lite/bitbake.git oe-lite
 meta/core = git://git.doredevelopment.dk/oe-lite/oe-core.git master
 	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-core.git
 meta/base = git://git.doredevelopment.dk/oe-lite/oe-base.git master
-	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-core.git
+	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-base.git
 meta/deif = ssh://dev.doredevelopment.dk/srv/deif/git/oe-lite.git
 
 [remotes "bitbake"]
