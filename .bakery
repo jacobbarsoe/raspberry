@@ -16,7 +16,7 @@ meta/core = git://git.doredevelopment.dk/oe-lite/oe-core.git master
 	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-core.git
 meta/base = git://git.doredevelopment.dk/oe-lite/oe-base.git master
 	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-base.git
-meta/deif = ssh://dev.doredevelopment.dk/srv/deif/git/oe-lite.git
+meta/deif = ssh://dev.doredevelopment.dk/srv/deif/git/oe-lite.git master
 
 [remotes "bitbake"]
 oe = git://git.openembedded.net/bitbake
