@@ -1,9 +1,9 @@
-MACHINE = "mpc8313erdb"
-DISTRO = "basic"
+MACHINE		?= "mpc8313erdb"
+MACHINE_CPU	 = "powerpc-mpc8313"
+DISTRO		?= "deif"
 
 PROVIDED = "all"
 
 SDK_CPU		= "i586"
-SDK_VENDOR	= "pc"
 SDK_OS		= "mingw32"
 SDK_PREFIX	= "i586-mingw32msvc-"

@@ -1,6 +1,9 @@
+[tmp]
+basedir=tmp.d
+
 [bitbake]
 path = bitbake/bin
-bbpath = .:meta/core
+bbpath = .:meta/deif:meta/base:meta/core
 
 [remotes]
 origin = git://git.doredevelopment.dk/oe-lite/bakery.git
@@ -11,6 +14,9 @@ bitbake = git://git.doredevelopment.dk/oe-lite/bitbake.git oe-lite
 	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/bitbake.git
 meta/core = git://git.doredevelopment.dk/oe-lite/oe-core.git master
 	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-core.git
+meta/base = git://git.doredevelopment.dk/oe-lite/oe-base.git master
+	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-core.git
+meta/deif = ssh://dev.doredevelopment.dk/srv/deif/git/oe-lite.git
 
 [remotes "bitbake"]
 oe = git://git.openembedded.net/bitbake

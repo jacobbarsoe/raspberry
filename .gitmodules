@@ -4,3 +4,9 @@
 [submodule "meta/core"]
 	path = meta/core
 	url = git://git.doredevelopment.dk/oe-lite/oe-core.git
+[submodule "meta/base"]
+	path = meta/base
+	url = git://git.doredevelopment.dk/oe-lite/oe-base.git
+[submodule "meta/deif"]
+	path = meta/deif
+	url = ssh://dev.doredevelopment.dk/srv/deif/git/oe-lite.git
