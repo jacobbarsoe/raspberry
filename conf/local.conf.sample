@@ -1,9 +1,23 @@
-MACHINE		?= "mpc8313erdb"
-MACHINE_CPU	 = "powerpc-mpc8313"
 DISTRO		?= "deif"
 
-PROVIDED = "all"
+# Use one of these for selecting machine architecture
+MACHINE		?= "mpc8313erdb"
+#MACHINE	?= "awc500pcm"
+#MACHINE_CPU	 = "powerpc-mpc8313"
 
-SDK_CPU		= "i586"
-SDK_OS		= "mingw32"
-SDK_PREFIX	= "i586-mingw32msvc-"
+PROVIDED	 = "all"
+
+# MinGW32 SDK
+SDK_CPU		 = "i586"
+SDK_OS		 = "mingw32"
+SDK_PREFIX	 = "i586-mingw32msvc-"
+SDK_CPPFLAGS	 = ""
+SDK_LDFLAGS	 = "-Wl,-O2"
+
+# 32-bit Linux SDK
+#SDK_CPU	 = "i586"
+#SDK_OS		 = "linux-gnu"
+
+# 64-bit Linux SDK
+#SDK_CPU	 = "x86_64"
+#SDK_OS		 = "linux-gnu"
