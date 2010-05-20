@@ -1,6 +1,6 @@
 #*
 *~
-tmp.d/
-tmp/
-deploy/
-ingredients/
+tmp.d
+tmp
+deploy
+ingredients
