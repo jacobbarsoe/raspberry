@@ -1,8 +1,7 @@
-DISTRO		?= "deif"
+DISTRO		?= "base"
 
 # Use one of these for selecting machine architecture
 MACHINE		?= "mpc8313erdb"
-#MACHINE	?= "awc500pcm"
 #MACHINE_CPU	 = "powerpc-mpc8313"
 
 PROVIDED	 = "all"
