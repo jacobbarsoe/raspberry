@@ -6,16 +6,16 @@ path = bitbake/bin
 bbpath = .:meta/base:meta/core
 
 [remotes]
-origin = git://git.doredevelopment.dk/oe-lite/bakery.git
-	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/bakery.git
+origin = git://gitorious.org/oe-lite/oe-lite.git
+	git@gitorious.org:oe-lite/oe-lite.git
 
 [submodules]
-bitbake = git://git.doredevelopment.dk/oe-lite/bitbake.git oe-lite
-	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/bitbake.git
-meta/core = git://git.doredevelopment.dk/oe-lite/oe-core.git master
-	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-core.git
-meta/base = git://git.doredevelopment.dk/oe-lite/oe-base.git master
-	ssh://dev.doredevelopment.dk/srv/public/git/oe-lite/oe-base.git
+bitbake = git://gitorious.org/oe-lite/bitbake.git oe-lite
+	git@gitorious.org:oe-lite/bitbake.git
+meta/core = git://gitorious.org/oe-lite/core.git master
+	git@gitorious.org:oe-lite/core.git
+meta/base = git://gitorious.org/oe-lite/base.git master
+	git@gitorious.org:oe-lite/base.git
 
 [remotes "bitbake"]
 oe = git://git.openembedded.net/bitbake

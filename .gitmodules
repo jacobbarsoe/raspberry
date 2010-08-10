@@ -1,9 +1,9 @@
 [submodule "bitbake"]
 	path = bitbake
-	url = git://git.doredevelopment.dk/oe-lite/bitbake.git
+	url = git://gitorious.org/oe-lite/bitbake.git
 [submodule "meta/core"]
 	path = meta/core
-	url = git://git.doredevelopment.dk/oe-lite/oe-core.git
+	url = git://gitorious.org/oe-lite/core.git
 [submodule "meta/base"]
 	path = meta/base
-	url = git://git.doredevelopment.dk/oe-lite/oe-base.git
+	url = git://gitorious.org/oe-lite/base.git
