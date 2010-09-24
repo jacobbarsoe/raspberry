@@ -4,6 +4,7 @@ DISTRO		?= "base"
 #MACHINE	?= "mpc8313erdb"
 #MACHINE_CPU	 = "powerpc-mpc8313"
 MACHINE_CPU	 = "arm-at91rm9200"
+#MACHINE_CPU	 = "arm-omap3520"
 
 PROVIDED	 = "all"
 
