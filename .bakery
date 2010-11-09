@@ -3,7 +3,7 @@ basedir=tmp.d
 
 [bitbake]
 path = bitbake/bin
-bbpath = .:meta/base:meta/core
+bbpath = .:meta/xorg:meta/base:meta/core
 
 [remotes]
 origin = git://git.doredevelopment.dk/oe-lite/oe-lite.git
@@ -20,6 +20,8 @@ meta/core = git://git.doredevelopment.dk/oe-lite/core.git master
 	dev.doredevelopment.dk:/srv/public/git/oe-lite/core.git
 meta/base = git://git.doredevelopment.dk/oe-lite/base.git master
 	dev.doredevelopment.dk:/srv/public/git/oe-lite/base.git
+meta/xorg = git://git.doredevelopment.dk/oe-lite/xorg.git master
+	dev.doredevelopment.dk:/srv/public/git/oe-lite/xorg.git
 
 [remotes "bitbake"]
 gitorious = git://gitorious.org/oe-lite/bitbake.git

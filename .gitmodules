@@ -7,3 +7,6 @@
 [submodule "meta/base"]
 	path = meta/base
 	url = git://git.doredevelopment.dk/oe-lite/base.git
+[submodule "meta/xorg"]
+	path = meta/xorg
+	url = git://git.doredevelopment.dk/oe-lite/xorg.git
