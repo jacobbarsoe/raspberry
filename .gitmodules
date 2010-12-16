@@ -10,3 +10,6 @@
 [submodule "meta/xorg"]
 	path = meta/xorg
 	url = git://git.doredevelopment.dk/oe-lite/xorg.git
+[submodule "meta/qt"]
+	path = meta/qt
+	url = git://git.doredevelopment.dk/oe-lite/qt.git
