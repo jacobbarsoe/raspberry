@@ -20,3 +20,12 @@ SDK_OS		 = "mingw32"
 # 64-bit Linux SDK
 #SDK_CPU	 = "x86_64"
 #SDK_OS		 = "linux-gnu"
+
+# Uncomment this to keep workdir intact after successful build
+#RMWORK		 = False
+
+# Set this to 1 for defaulting to --relaxed or 2 for defaulting to --sloppy
+#DEFAULT_RELAX	= 1
+
+# Point to any available prebaked packages
+#PREBAKE_PATH = "${TOPDIR}/prebake"
