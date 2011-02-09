@@ -13,3 +13,6 @@
 [submodule "meta/qt"]
 	path = meta/qt
 	url = git://gitorious.org/oe-lite/qt.git
+[submodule "meta/multimedia"]
+	path = meta/multimedia
+	url = git://gitorious.org/oe-lite/multimedia.git
