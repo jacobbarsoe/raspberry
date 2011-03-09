@@ -32,5 +32,5 @@ RMWORK		 = "0"
 PREBAKE_PATH	 = "${TOPDIR}/prebake"
 
 # Uncomment these to do enable parallel make
-PARALLEL_MAKE	 ?= "-j 4"
-CT_PARALLEL_JOBS ?= "4"
+#PARALLEL_MAKE	 = "-j 4"
+#CT_PARALLEL_JOBS = "4"
