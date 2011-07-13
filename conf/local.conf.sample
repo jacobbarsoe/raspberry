@@ -1,4 +1,4 @@
-DISTRO		?= "base"
+DISTRO		?= "core"
 
 # Use one of these for selecting machine architecture
 #MACHINE	?= "mpc8313erdb"
@@ -11,19 +11,19 @@ DISTRO		?= "base"
 PROVIDED	 = "all"
 
 # MinGW32 SDK
-SDK_CPU		 = "i686"
-SDK_OS		 = "mingw32"
+#SDK_CPU	 = "i686"
+#SDK_OS		 = "mingw32"
 
 # 32-bit Linux SDK
-#SDK_CPU	 = "i686"
-#SDK_OS		 = "linux-gnu"
+SDK_CPU		 = "i686"
+SDK_OS		 = "linux-gnu"
 
 # 64-bit Linux SDK
 #SDK_CPU	 = "x86_64"
 #SDK_OS		 = "linux-gnu"
 
 # Uncomment this to keep workdir intact after successful build
-#RMWORK		 = "0"
+RMWORK		 = "0"
 
 # Set this to 1 for defaulting to --relaxed or 2 for defaulting to --sloppy
 #DEFAULT_RELAX	 = "1"
@@ -34,3 +34,4 @@ PREBAKE_PATH	 = "${TOPDIR}/prebake"
 # Uncomment these to do enable parallel make
 #PARALLEL_MAKE	 = "-j 4"
 #CT_PARALLEL_JOBS = "4"
+
