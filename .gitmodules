@@ -19,3 +19,6 @@
 [submodule "lib/GitPython"]
 	path = lib/GitPython
 	url = git://github.com/gitpython-developers/GitPython.git
+[submodule "meta/omap"]
+	path = meta/omap
+	url = git://gitorious.org/oe-lite/omap.git
