@@ -15,7 +15,7 @@
 	url = git://gitorious.org/oe-lite/multimedia.git
 [submodule "lib/fetching/fetching"]
 	path = lib/fetching/fetching
-	url = git://github.com/kergoth/fetching
+	url = git://gitorious.org/oe-lite/python-fetching
 [submodule "lib/GitPython"]
 	path = lib/GitPython
 	url = git://github.com/gitpython-developers/GitPython.git
