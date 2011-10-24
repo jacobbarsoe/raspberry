@@ -22,3 +22,6 @@
 [submodule "meta/omap"]
 	path = meta/omap
 	url = git://gitorious.org/oe-lite/omap.git
+[submodule "lib/urlgrabber"]
+	path = lib/urlgrabber
+	url = git://yum.baseurl.org/urlgrabber.git
