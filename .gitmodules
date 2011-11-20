@@ -1,24 +1,24 @@
 [submodule "meta/core"]
 	path = meta/core
-	url = git://gitorious.org/oe-lite/core.git
+	url = git://oe-lite.org/oe-lite/core.git
 [submodule "meta/base"]
 	path = meta/base
-	url = git://gitorious.org/oe-lite/base.git
+	url = git://oe-lite.org/oe-lite/base.git
 [submodule "meta/xorg"]
 	path = meta/xorg
-	url = git://gitorious.org/oe-lite/xorg.git
+	url = git://oe-lite.org/oe-lite/xorg.git
 [submodule "meta/qt"]
 	path = meta/qt
-	url = git://gitorious.org/oe-lite/qt.git
+	url = git://oe-lite.org/oe-lite/qt.git
 [submodule "meta/multimedia"]
 	path = meta/multimedia
-	url = git://gitorious.org/oe-lite/multimedia.git
+	url = git://oe-lite.org/oe-lite/multimedia.git
 [submodule "lib/fetching/fetching"]
 	path = lib/fetching/fetching
-	url = git://gitorious.org/oe-lite/python-fetching
+	url = git://oe-lite.org/python-fetching
 [submodule "lib/GitPython"]
 	path = lib/GitPython
 	url = git://github.com/gitpython-developers/GitPython.git
 [submodule "meta/omap"]
 	path = meta/omap
-	url = git://gitorious.org/oe-lite/omap.git
+	url = git://oe-lite.org/oe-lite/omap.git
