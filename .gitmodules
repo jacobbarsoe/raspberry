@@ -19,9 +19,9 @@
 [submodule "lib/GitPython"]
 	path = lib/GitPython
 	url = git://github.com/gitpython-developers/GitPython.git
-[submodule "meta/omap"]
-	path = meta/omap
-	url = git://oe-lite.org/oe-lite/omap.git
 [submodule "lib/urlgrabber"]
 	path = lib/urlgrabber
 	url = git://yum.baseurl.org/urlgrabber.git
+[submodule "meta/raspberrypi"]
+	path = meta/raspberrypi
+	url = git@github.com:jacobbarsoe/raspberrypi.git
