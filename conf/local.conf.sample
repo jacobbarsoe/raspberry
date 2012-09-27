@@ -4,7 +4,10 @@ MACHINE = "rpi"
 
 # Use one of these for selecting machine architecture
 #MACHINE	?= "mpc8313erdb"
-#MACHINE	 = "nitrogen-e"
+#MACHINE	?= "imx53qsb"
+#MACHINE	?= "beagleboard"
+#MACHINE	?= "pandaboard"
+
 #MACHINE_CPU	 = "powerpc-mpc8313"
 #MACHINE_CPU	 = "arm-at91rm9200"
 #MACHINE_CPU	 = "arm-omap3520"
@@ -31,9 +34,9 @@ RMWORK		 = "0"
 #DEFAULT_RELAX	 = "1"
 
 # Point to any available prebaked packages
-PREBAKE_PATH	 = "${TOPDIR}/prebake"
+#PREBAKE_PATH	 = "${TOPDIR}/prebake"
 
 # Uncomment these to do enable parallel make
-PARALLEL_MAKE	 = "-j 4"
 #CT_PARALLEL_JOBS = "4"
+#PARALLEL_MAKE	 = "-j 4"
 
