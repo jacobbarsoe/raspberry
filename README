@@ -4,7 +4,7 @@ Next, clone this repository:
 
 oe clone https://github.com/jacobbarsoe/raspberry.git
 
-add a local.conf in your raspberry/conf dir similar to below.
+add a local.conf in your raspberry/conf dir e.g. by copying local.conf.sample
 you can change PARALLEL_MAKE and SDK_CPU to fit your needs.
 
 
@@ -18,13 +18,4 @@ oe bake bootfs rootfs
 ./meta/raspberrypi/scripts/mk_sd.sh /dev/sdb /dev/sdb1 /dev/sdb2 tmp/images
 
 
-LOCAL.conf:
-DISTRO		= "raspberrypi"
-MACHINE = "rpi"
-PROVIDED	 = "all"
-SDK_CPU		 = "i686"
-SDK_OS		 = "linux-gnu"
-RMWORK		 = "0"
-PREBAKE_PATH	 = "${TOPDIR}/prebake"
-PARALLEL_MAKE	 = "-j 4"
 
