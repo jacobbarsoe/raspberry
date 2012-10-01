@@ -18,4 +18,8 @@ oe bake bootfs rootfs
 ./meta/raspberrypi/scripts/mk_sd.sh /dev/sdb /dev/sdb1 /dev/sdb2 tmp/images
 
 
+TODO:
+a recipe to setup config.txt to configure overclocking, hdmi, etc.
+(I however just uses the serial console so I have not been in need for this yet)
+
 
